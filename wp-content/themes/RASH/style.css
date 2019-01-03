@@ -1,0 +1,22 @@
+/*
+Theme Name: RASH
+Author: Ruben Pereira C - Axel Avaux - Sophie Favier - Hadrien Soumoy
+Description: Template WordPress danse le cadre d'apprendre son fonctionnement
+Version: 0.0.1
+Tags: bootstrap
+*/
+
+.header {
+    background: #377bb5;
+}
+    
+#navigation-principale li {
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    font-weight: 500;
+}
+    
+#navigation-principale li a {
+    color: #fff;
+}
