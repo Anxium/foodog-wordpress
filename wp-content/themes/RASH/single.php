@@ -13,6 +13,7 @@ Comment by : Axel
     ?>
     
     <span class="category"><?php the_category(); ?></span>
+    <?php the_post_thumbnail('single-post-thumbnail'); ?>
     <h2><?php the_title(); ?></h2>
     <p><?php the_content(); ?></p>
 
