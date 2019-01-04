@@ -1,7 +1,8 @@
 <?php
 
 register_nav_menus( array(
-    'main-menu' => 'Menu principal'
+    'main-menu' => 'Menu principal',
+    'second-menu' => 'Second menu',
 ));
 
 function wpdocs_theme_name_scripts()
