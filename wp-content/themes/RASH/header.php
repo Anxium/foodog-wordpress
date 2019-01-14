@@ -9,7 +9,6 @@
     <meta name="author" content="">
     <title><?php bloginfo('name'); ?></title>
     <!– Ajout d’une nouvelle feuille de style qui sera spécifique à notre thème –>
-    <link href="<?php bloginfo('template_directory');?>/style.css" rel="stylesheet">
     <?php wp_head(); ?>
 </head>
 
