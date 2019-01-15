@@ -6,85 +6,108 @@ Version: 0.0.1
 Tags: bootstrap
 */
 
-.header {
+.header{
     background: #377bb5;
 }
     
-#navigation-principale li {
+#navigation-principale li{
     position: relative;
     display: inline-block;
     padding: 10px;
     font-weight: 500;
 }
     
-#navigation-principale li a {
+#navigation-principale li a{
     color: #fff;
 }
 
 
-
-
 /* HADRI CSS*/
 
-.footer1{
+.footer1 {
+    padding-top: 24px;
     background-color: #3a3e43;
     color: white;
-   
-   }
-   .footer1 h2{
-       margin: 5px;
-       padding: 8px;
-       font-size: 25px;
-       font-family: "Times New Roman", Times, serif;
+}
+.footer1 h2{
+    margin: 5px;
+    padding: 8px;
+    font-size: 25px;
+    font-family: "Times New Roman", Times, serif;
        
-   }
+}
    .footer1 a{
-       color: white;
-   }
+    color: white;
+}
    .footer1 a:hover{
-       color: #3a3e43;
-   }
-   
-   .footer1 p{
-       margin: 5px;
-       padding-top: 2px;
-       padding-left: 10px;
-       font-size: 18px;
-       font-family: "Times New Roman", Times, serif;
-       
-   }
-   .footer1 h2{margin: 5px;
-       padding: 5px;
-       border-bottom: 1px solid white;
-       
-       
-   }
-   /*==========================footer2===========================*/
-   .footer2{
-   
-       background-color: #303336;
-       color: white;
-       
-   }
-   .footer2 p{
-       margin: 8px;
-       padding: 8px;
-       font-size: 16px;
-       font-family: "Times New Roman", Times, serif;
-   
-   }
-   .myframegmap{
-   
-       border: 3px solid #f6f5f0;
-       border-radius: 8px;
-       height: 130px;
-       width: 80%;
-       box-shadow: 0px 0px 3px 3px #e7e4dc;
-       overflow: hidden;
-       position: relative;
-       margin: 0 auto;
-   
-   }
+    color: white;
+}
 
-   .gallery-image img{width:85px; height:85px;}
-   .gallery-bottom{margin-bottom:10px;}
+.footer1 p{
+    margin: 5px;
+    padding-top: 2px;
+    padding-left: 10px;
+    font-size: 18px;
+    font-family: "Times New Roman", Times, serif;     
+}
+
+.footer1 h2{
+    margin: 5px;
+    padding: 5px;
+    border-bottom: 1px solid white;    
+}
+
+   /*==========================footer2===========================*/
+.footer2{ 
+    background-color: #303336;
+    color: white;
+       
+}
+.footer2 p{
+    font-size: 16px;
+    font-family: "Times New Roman", Times, serif;
+   
+}
+
+.gallery-image img{
+    width:85px; height:85px;
+}
+.gallery-bottom{
+    margin-bottom:10px;
+    flex-direction:column;
+}
+
+.block{
+    font-size: 16px;
+    margin:5px;
+ }
+
+.footer-link{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.footer1 li{
+    margin-bottom: 40px;
+    color: white;
+    border-bottom: 0.5px solid white;
+}
+
+img.attachment-post-thumbnail.size-post-thumbnail.wp-post-image{
+    width: 120px;
+    height: 120px;
+    margin:5px;
+}
+
+h3.title2{
+    margin:1px;
+}
+.footer_div{
+    display: flex;
+}
+.category_footer{
+    color: #6f7277!important;
+    margin-left: 30px;
+    margin-bottom: 60px;
+    font-size: 24px;
+}
