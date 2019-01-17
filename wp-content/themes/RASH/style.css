@@ -252,4 +252,40 @@ h3.title2{
     padding-right:10px;
     padding-left:10px;
     font-size: 25px;
+    color: #fff;
+}
+
+/* CSS RUBEN */
+.sidebar-fb {
+    background-color: #97A9D4;
+    height:50px;
+    margin-bottom: 2px;
+}
+
+.sidebar-txt-side {
+    color:#fff;
+    font-size:0.9em;
+    font-weight:bold;
+    margin-top:18px;
+}
+
+.sidebar-twitter{
+    background-color:#60D2F5;
+    height:50px;
+    margin-bottom: 2px;
+}
+
+.sidebar-insta {
+    background-color: #709CBF;
+    height:50px;
+    margin-bottom: 2px;
+}
+
+.sidebar-dog {
+    background: #000;
+}
+
+.img-sidebar{
+    padding: 0;
+    margin-top:60px;
 }
