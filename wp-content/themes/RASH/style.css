@@ -5,66 +5,56 @@ Description: Template WordPress danse le cadre d'apprendre son fonctionnement
 Version: 0.0.1
 Tags: bootstrap
 */
-@import url('https://fonts.googleapis.com/css?family=Crimson+Text');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:600');
-
-
 *{
-    box-sizing:border-box;
-    margin:0;
-    padding:0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
-
-.title{
-    display:flex;
-    justify-content: center;
+.header {
+    background: #377bb5;
 }
-
-.blog-title{
-    color:#333;
-    font-family: 'Crimson Text', serif;
-    font-weight: bold;
-    font-size:70px;
-    margin-left:10%;
-    margin-bottom:1.5%;
-}
-
+    
 #navigation-principale li {
     position: relative;
     display: inline-block;
-    padding: 25px;
+    padding: 10px;
     font-weight: 500;
-    text-align:center;
-    font-family: 'Open Sans', sans-serif;
 }
     
 #navigation-principale li a {
-    color: #333;
-    text-transform:uppercase;
-    font-size:15px;
-    justify-content: center;
+    color: #fff;
 }
 
-.menu{
-    display:flex;
-    justify-content:center;
+.sidebar-fb {
+    background-color: #97A9D4;
+    height:50px;
+    margin-bottom: 2px;
 }
 
-.nav-social{
-    margin-top:1%;
+.sidebar-txt-side {
+    color:#fff;
+    font-size:0.9em;
+    font-weight:bold;
+    margin-top:18px;
 }
 
-.nav-social li{
-    text-decoration:none;
-    list-style-type:none;
-    margin:10px;
-    font-size:11px;
+.sidebar-twitter{
+    background-color:#60D2F5;
+    height:50px;
+    margin-bottom: 2px;
 }
 
-.nav-social li a{
-    color:#000;
+.sidebar-insta {
+    background-color: #709CBF;
+    height:50px;
+    margin-bottom: 2px;
 }
 
-.header-link{
-    width:100%;
+.sidebar-dog {
+    
+    background: #000;
+}
+.img-sidebar{
+    padding: 0;
+    margin-top:60px;
 }
