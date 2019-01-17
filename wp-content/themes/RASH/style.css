@@ -5,8 +5,6 @@ Description: Template WordPress danse le cadre d'apprendre son fonctionnement
 Version: 0.0.1
 Tags: bootstrap
 */
-@import url('https://fonts.googleapis.com/css?family=Crimson+Text');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:600');
 
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text|Open+Sans');
 
@@ -149,4 +147,117 @@ a:hover {
 
 .header-link{
     width:100%;
+}
+
+
+/* HADRI CSS*/
+
+.footer1 {
+    padding-top: 24px;
+    background-color: #3a3e43;
+    color: white;
+}
+.footer1 h2{
+    margin: 5px;
+    padding: 8px;
+    font-size: 25px;
+    font-family: "Times New Roman", Times, serif;
+       
+}
+   .footer1 a{
+    color: white;
+}
+   .footer1 a:hover{
+    color: white;
+}
+
+.footer1 p{
+    margin: 5px;
+    padding-top: 2px;
+    padding-left: 10px;
+    font-size: 18px;
+    font-family: "Times New Roman", Times, serif;     
+}
+
+.footer1 h2{
+    margin: 5px;
+    padding: 5px;
+    border-bottom: 1px solid white;    
+}
+
+   /*==========================footer2===========================*/
+.footer2{ 
+    background-color: #303336;
+    color: white;
+       
+}
+.footer2 p{
+    font-size: 16px;
+    font-family: "Times New Roman", Times, serif;
+   
+}
+
+.gallery-image img{
+    width:85px; height:85px;
+}
+.gallery-bottom{
+    margin-bottom:10px;
+    flex-direction:column;
+}
+
+.block{
+    font-size: 16px;
+    margin:5px;
+ }
+
+.footer-link{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.footer1 li{
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+    list-style: none;
+    color: white;
+    border-bottom: 0.5px solid #303336;
+}
+
+img.attachment-post-thumbnail.size-post-thumbnail.wp-post-image{
+    width: 120px;
+    height: 120px;
+    margin:5px;
+}
+
+h3.title2{
+    margin:1px;
+}
+.footer_div{
+    display: flex;
+}
+.category_footer{
+    color: #6f7277!important;
+    margin-left: 30px;
+    margin-bottom: 60px;
+    font-size: 24px;
+}
+.footer-bottom{
+    
+}
+.footer-copy{
+    padding-top:24px;
+    height: 75px;
+    
+}
+
+.link-social{
+    display:flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+}
+
+.link-social a{
+    padding-right:10px;
+    padding-left:10px;
+    font-size: 25px;
 }

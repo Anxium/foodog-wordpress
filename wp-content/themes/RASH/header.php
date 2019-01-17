@@ -10,7 +10,6 @@
     <title>Exemple de thème WordPress</title>
     <!– Ajout d’une nouvelle feuille de style qui sera spécifique à notre thème –>
     <?php wp_head(); ?>
-    
 </head>
 
 <body>
