@@ -23,20 +23,12 @@ add_image_size( 'single-post-hero', 520, 320);
 add_image_size( 'post-hero', 150, 150);
 
 // Gère affichage des boucles
-$latest_first = new WP_query(array(
+$hero_one = new WP_query(array(
+    'tag' => 'hero-one',
     'posts_per_page' => 1,
-    'order'          => 'DESC',
 ));
 
-$latest_content = new WP_query(array(
+$hero = new WP_query(array(
+    'tag' => 'hero',
     'posts_per_page' => 4,
-    'offset'         => 1,
-    'order'          => 'DESC',
-));
-
-
-$latest_end = new WP_query(array(
-    'posts_per_page' => 6,
-    'offset'        => 5,
-    'order'          => 'DESC',
 ));
