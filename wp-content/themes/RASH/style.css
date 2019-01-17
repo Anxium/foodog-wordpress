@@ -5,6 +5,11 @@ Description: Template WordPress danse le cadre d'apprendre son fonctionnement
 Version: 0.0.1
 Tags: bootstrap
 */
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
 
 .header{
     background: #377bb5;
@@ -88,9 +93,11 @@ Tags: bootstrap
 }
 
 .footer1 li{
+    padding-bottom: 10px;
     margin-bottom: 40px;
+    list-style: none;
     color: white;
-    border-bottom: 0.5px solid white;
+    border-bottom: 0.5px solid #303336;
 }
 
 img.attachment-post-thumbnail.size-post-thumbnail.wp-post-image{
@@ -110,4 +117,24 @@ h3.title2{
     margin-left: 30px;
     margin-bottom: 60px;
     font-size: 24px;
+}
+.footer-bottom{
+    
+}
+.footer-copy{
+    padding-top:24px;
+    height: 75px;
+    
+}
+
+.link-social{
+    display:flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+}
+
+.link-social a{
+    padding-right:10px;
+    padding-left:10px;
+    font-size: 25px;
 }

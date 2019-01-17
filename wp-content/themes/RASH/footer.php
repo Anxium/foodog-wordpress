@@ -36,20 +36,17 @@ $popular_posts_loop = new WP_Query( $popular_posts_args );
                <?php  while( $popular_posts_loop->have_posts() ): $popular_posts_loop->the_post(); ?>
                <div class="footer_div">
                   <?php if (has_post_thumbnail()) : ?>
-                  <a class="hadri-img" href="" title=»<?php the_title_attribute(); ?> » >
+                  <a class="hadri-img" href="<?php the_permalink() ?>" title=»<?php the_title_attribute(); ?> » >
                      <?php the_post_thumbnail(); ?></a>
-                  <h3 class="title2"><a class="block" href="" title=»<?php the_title_attribute(); ?> »>
+                  <h3 class="title2"><a class="block" href="<?php the_permalink() ?>" title=»<?php the_title_attribute(); ?> »>
                         <?php the_title(); ?></a></h3>
                   <?php endif ?>
                </div>
                <?php  endwhile;
 wp_reset_query(); ?>
                <!--
-               <a href="</*?php the_permalink() ?>"> - <?php the_title(); ?></a>
-                  <img class="block " src="https://igx.4sqi.net/img/general/200x200/0_OGr2UYgM7kwo1CB-AMVaDzY2rtFT3Ae7jf21-FEvY.jpg" alt="poster"><span class="lorem">  Evenlet Ut Molesti</span><br>
-                  <img class="block " src="https://igx.4sqi.net/img/general/200x200/0_OGr2UYgM7kwo1CB-AMVaDzY2rtFT3Ae7jf21-FEvY.jpg" alt="poster"><span class="lorem">  Earum Rerum Tenet</span><br>
-                  <img class="block " src="https://igx.4sqi.net/img/general/200x200/0_OGr2UYgM7kwo1CB-AMVaDzY2rtFT3Ae7jf21-FEvY.jpg" alt="poster"><span class="lorem">  Evenlet Ut Molesti</span><br>
-                  <img class="block " src="https://igx.4sqi.net/img/general/200x200/0_OGr2UYgM7kwo1CB-AMVaDzY2rtFT3Ae7jf21-FEvY.jpg" alt="poster"><span class="lorem">  Earum Rerum Tenet</span><br>
+               <a href="<?php the_permalink() ?>"> - <?php the_title(); ?></a>
+
                       -->
             </div>
          </div>
@@ -58,22 +55,7 @@ wp_reset_query(); ?>
             <!-- InstaWidget -->
             <a href="https://instawidget.net/v/tag/cutedogs" id="link-52194829e90539bb02c64185c02ae949fc0be36409a0eae50269b1cf440a4b45">#cutedogs</a>
             <script src="https://instawidget.net/js/instawidget.js?u=52194829e90539bb02c64185c02ae949fc0be36409a0eae50269b1cf440a4b45&width=300px"></script>
-            <!--
-                    <div class="row">
-                        <img class="block" src="https://igx.4sqi.net/img/general/200x200/0_OGr2UYgM7kwo1CB-AMVaDzY2rtFT3Ae7jf21-FEvY.jpg" alt="poster">
-                        <img class="block" src="https://igx.4sqi.net/img/general/200x200/0_OGr2UYgM7kwo1CB-AMVaDzY2rtFT3Ae7jf21-FEvY.jpg" alt="poster">
-                        <img class="block" src="https://igx.4sqi.net/img/general/200x200/0_OGr2UYgM7kwo1CB-AMVaDzY2rtFT3Ae7jf21-FEvY.jpg" alt="poster">
-                    </div>
-                  <div class="row">
-                        <img class="block" src="https://igx.4sqi.net/img/general/200x200/0_OGr2UYgM7kwo1CB-AMVaDzY2rtFT3Ae7jf21-FEvY.jpg" alt="poster">
-                        <img class="block" src="https://igx.4sqi.net/img/general/200x200/0_OGr2UYgM7kwo1CB-AMVaDzY2rtFT3Ae7jf21-FEvY.jpg" alt="poster">
-                        <img class="block" src="https://igx.4sqi.net/img/general/200x200/0_OGr2UYgM7kwo1CB-AMVaDzY2rtFT3Ae7jf21-FEvY.jpg" alt="poster">
-                    </div>
-                  <div class="row">
-                        <img class="block" src="https://igx.4sqi.net/img/general/200x200/0_OGr2UYgM7kwo1CB-AMVaDzY2rtFT3Ae7jf21-FEvY.jpg" alt="poster">
-                        <img class="block" src="https://igx.4sqi.net/img/general/200x200/0_OGr2UYgM7kwo1CB-AMVaDzY2rtFT3Ae7jf21-FEvY.jpg" alt="poster">
-                        <img class="block" src="https://igx.4sqi.net/img/general/200x200/0_OGr2UYgM7kwo1CB-AMVaDzY2rtFT3Ae7jf21-FEvY.jpg" alt="poster">
-   -->
+
          </div>
       </div>
    </div>
@@ -81,11 +63,18 @@ wp_reset_query(); ?>
    <div class="footer2">
       <div class="container-fluid footer-copy">
          <div class="row">
-            <div class="col-sm-12 text-center">
+            <div class="col-sm-12 text-center footer-bottom">
                <p><strong>copyright © 2013-2018 All right reserved.</strong></p>
             </div>
          </div>
       </div>
+      
+               <div class="link-social">
+                  <a href=""><i class="fab fa-facebook-f"></i></a>
+                  <a href=""><i class="fab fa-twitter"></i></a>
+                  <a href=""><i class="fab fa-instagram"></i></a>
+               </div>
+      
    </div>
 
 

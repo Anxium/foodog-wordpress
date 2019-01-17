@@ -10,6 +10,9 @@
     <title><?php bloginfo('name'); ?></title>
     <!– Ajout d’une nouvelle feuille de style qui sera spécifique à notre thème –>
     <link href="<?php bloginfo('template_directory');?>/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+
     <?php wp_head(); ?>
 </head>
 
