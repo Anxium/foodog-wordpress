@@ -188,21 +188,21 @@ a:hover {
    /*==========================footer2===========================*/
 .footer2{ 
     background-color: #303336;
-    color: white;
-       
+    color: white;  
 }
+
 .footer2 p{
     font-size: 16px;
     font-family: "Times New Roman", Times, serif;
-   
 }
 
 .gallery-image img{
-    width:85px; height:85px;
+    width:85px; 
+    height:85px;
 }
+
 .gallery-bottom{
     margin-bottom:10px;
-    flex-direction:column;
 }
 
 .block{
@@ -223,12 +223,6 @@ a:hover {
     border-bottom: 0.5px solid #303336;
 }
 
-img.attachment-post-thumbnail.size-post-thumbnail.wp-post-image{
-    width: 120px;
-    height: 120px;
-    margin:5px;
-}
-
 h3.title2{
     margin:1px;
 }
@@ -241,13 +235,11 @@ h3.title2{
     margin-bottom: 60px;
     font-size: 24px;
 }
-.footer-bottom{
-    
+
 }
 .footer-copy{
     padding-top:24px;
     height: 75px;
-    
 }
 
 .link-social{
