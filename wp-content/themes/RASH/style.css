@@ -5,6 +5,8 @@ Description: Template WordPress danse le cadre d'apprendre son fonctionnement
 Version: 0.0.1
 Tags: bootstrap
 */
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:600');
 
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text|Open+Sans');
 
@@ -83,4 +85,68 @@ a:hover {
 .blog-post .blog-post-resume {
     font-family: 'Crimson Text', serif;
     color: #666666;
+}
+
+.head-content{
+    margin-top:2%;
+}
+
+.title{
+    display:flex;
+    justify-content: center;
+}
+
+.blog-title{
+    color:#333;
+    font-family: 'Crimson Text', serif;
+    font-weight: bold;
+    font-size:70px;
+    margin-left:10%;
+    margin-bottom:1.5%;
+}
+
+#navigation-principale li {
+    position: relative;
+    display: inline-block;
+    padding: 25px;
+    font-weight: 500;
+    text-align:center;
+    font-family: 'Open Sans', sans-serif;
+}
+    
+#navigation-principale li a {
+    color: #333;
+    text-transform:uppercase;
+    font-size:15px;
+    justify-content: center;
+    text-decoration:none;
+}
+
+.menu{
+    display:flex;
+    justify-content:center;
+}
+
+.nav-social{
+    margin-top:1%;
+}
+
+.nav-social li{
+    text-decoration:none;
+    list-style-type:none;
+    margin:10px;
+    font-size:11px;
+}
+
+.nav-social li a{
+    color:#000;
+    text-decoration:none;
+}
+
+.nav-social li a:hover{
+    text-decoration:none;
+}
+
+.header-link{
+    width:100%;
 }
