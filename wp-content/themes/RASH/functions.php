@@ -65,6 +65,16 @@ function notux_widgets_init() {
 			'after_widget'	=> '</div>',
 			'before_title'	=> '<div class="widget-title th3">',
 			'after_title'	=> '</div>',
+        ) );
+        
+		register_sidebar( array(
+			'name'			=> __( 'Sidebar', 'RASH' ),
+			'id'			=> 'zone-widgets-2',
+			'description'	=> __( 'Widget destiné à la sidebar.', 'RASH' ),
+			'before_widget'	=> '<div id="%1$s" class="widget %2$s">',
+			'after_widget'	=> '</div>',
+			'before_title'	=> '<div class="widget-title th3">',
+			'after_title'	=> '</div>',
 		) );
 }
 add_action( 'widgets_init', 'notux_widgets_init' );
