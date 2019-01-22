@@ -6,7 +6,7 @@
 	<div class="container">
 		<div class="row">
             <div class="col-md-12">
-                <h1 class="page-title"><?php _e( 'Résultat de la recherche pour : ', 'RASH' ); ?><span class="keyword"><?php echo get_search_query(); ?></span></h1>
+                <h2 class="page-title"><?php _e( 'Résultat de la recherche pour : ', 'RASH' ); ?><span class="keyword"><?php echo get_search_query(); ?></span></h2>
             </div>
 		</div>
 		<div class="row">

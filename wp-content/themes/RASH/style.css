@@ -290,3 +290,108 @@ nav ul li a:hover {
     border: 1px solid #333;
     border-radius: 50%;
 }
+
+/* CSS SIDEBAR */
+.sidebar div {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 4px;
+}
+
+.sidebar div a {
+    width: 100%;
+}
+
+/* CSS FOOTER #HADRI */
+.footer {
+    background-color: #3a3e43;
+}
+
+.footer li{
+    padding-bottom: 25px;
+    margin-bottom: 40px;
+    list-style: none;
+    border-bottom: 0.5px solid #303336;
+}
+
+.footer-cat-menu a{
+    font-size: 13px;
+    color:white;
+}
+
+.footer-subtitle{
+    font-size: 15px;
+    margin-left: 18px;
+    margin-top: 60px;
+    padding-bottom: 5px;
+    color: #6f7277;
+}
+
+.footer-bottom{ 
+    height: 100px;
+    background-color: #303336;
+}
+
+.footer-bottom a{ 
+    color: white;
+}
+
+.link-social{
+    display:flex;
+    justify-content: flex-end;
+    margin-right: 40vh;
+}
+
+.link-social a{
+    padding-top:25px;
+    padding-right:10px;
+    padding-left:10px;
+    font-size: 15px;
+    color: #fff;
+}
+
+.division-bottom{
+    margin-bottom: 30px;
+}
+
+/* popular post dans le footer */
+
+.footer-div{
+    display: flex;
+}
+.category-footer{
+    margin-left: 30px;
+    margin-bottom: 60px;
+    font-size: 24px;
+}
+
+.footer-copy{
+    padding-top:24px;
+    height: 75px;
+}
+
+.link-social{
+    display:flex;
+    justify-content: flex-end;
+    margin-right: 30vh;
+}
+
+.hadri-img img{
+    object-fit: cover;
+    height: 95px;
+    width: 146px;
+    margin: 0 20px 20px;
+}
+
+.block {
+    color:white;
+}
+
+.footer-title2{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    line-height: 15px;
+}

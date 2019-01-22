@@ -5,8 +5,6 @@
 register_nav_menus( array(
     'main-menu' => 'Menu principal',
     'header-social-menu' => 'HEADER Social Menu',
-    'footer-menu' => 'menu footer',
-    'footer-middle' => 'middle fotter'
 ));
 
 // Gère les css
