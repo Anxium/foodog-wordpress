@@ -14,19 +14,19 @@
 
         <?php if (is_single()) : ?>
         
-			<div class="row navbar-light nav-row">
+			<div class="row single-nav navbar-light nav-row mt-2">
 				<div class="col-md-4 col-10 d-flex">
-					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon"></span>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-bars"></i>
     				</button>
-                    <h1 class="single-title"><a href="<?php echo get_site_url(); ?>"><?php echo get_bloginfo('name'); ?></a></h1>
+                    <h1 class="single-title ml-3"><a href="<?php echo get_site_url(); ?>"><?php echo get_bloginfo('name'); ?></a></h1>
                 </div>
                 
 				<div class="col-md-4 col-12 formmail">
 					<form action="#" class="row d-flex align-items-center">
-						<span class="col-md-4 col-10 d-flex justify-content-center">Digest in Your Inbox</span>
-						<input class="col-md-5 col-10" type="email" placeholder="YOUR EMAIL">
-						<input class="col-md-3 col-4" type="submit" value="SIGN UP">
+						<span class="col-md-5 col-10 formmail-text text-right">Digest in Your Inbox</span>
+						<input class="col-md-4 col-10 formmail-input" type="email" placeholder="YOUR EMAIL">
+						<input class="col-md-3 col-4 formmail-submit" type="submit" value="SIGN UP">
 					</form>
                 </div>
                 
@@ -62,10 +62,10 @@
                     </div>
 
 				</div>
+                <nav class="collapse single-main-nav header-main-nav col-12 mt-5" id="navbarMenu">
+                    <?php wp_nav_menu(array('theme_location' => 'main-menu')); ?>
+                </nav>
 			</div>
-			<nav class="collapse" id="navbarToggleExternalContent">
-				<?php wp_nav_menu(array('theme_location' => 'main-menu')); ?>
-            </nav>
             
         <?php else : ?>
 

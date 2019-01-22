@@ -64,6 +64,10 @@ a:hover {
 
 .index-posts-title {
     position: relative;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
 }
 
 .index-posts-title:after{
@@ -72,7 +76,7 @@ a:hover {
     border-bottom: 4px solid lightgrey;
     width: 100%;
     top: 50%;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 .blog-post {
@@ -193,6 +197,49 @@ nav ul li a:hover {
     justify-content: center;
 }
 
+.formmail-text {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.formmail-input {
+    border: 2px solid #000;
+}
+
+.formmail-submit {
+    background: #000;
+    color: #fff;
+    border: 2px solid #000;
+}
+
+.single-main-nav {
+    display: flex;
+    justify-content: center;
+}
+
+.single-nav {
+    padding-bottom: 10px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler i {
+    color: #333;
+}
+
+.single-title {
+    font-family: 'Crimson text', serif;
+}
+
+.single-title a {
+    color: #333;
+    font-size: 36;
+    font-weight: 600;
+}
+
 @media screen and (max-width: 800px) {
     .header-social-nav-div {
         justify-content: center;
@@ -215,6 +262,10 @@ nav ul li a:hover {
 
     .formmail {
         display: none;
+    }
+
+    .sidebar {
+        margin: 20px 0;
     }
 }
 
@@ -292,16 +343,32 @@ nav ul li a:hover {
 }
 
 /* CSS SIDEBAR */
+.sidebar {
+    margin: 100px 0;
+}
+
 .sidebar div {
     display: flex;
     flex-flow: column;
     align-items: center;
     width: 100%;
-    margin-bottom: 4px;
+    margin-bottom: 10px;
 }
 
 .sidebar div a {
     width: 100%;
+}
+
+/* CSS SINGLE */
+.down-thumb {
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    padding: 10px;
+}
+
+.single-category ul li {
+    list-style: none;
+    text-align: center;
 }
 
 /* CSS FOOTER #HADRI */

@@ -9,16 +9,28 @@ Comment by : Axel
         <div class="col-sm-8 blog-main">
     
         <?php 
-         // while(have_posts()) : the_post(); 
+            while(have_posts()) : the_post(); 
         ?>
         
-        <span class="category"><?php // the_category(); ?></span>
-        <?php // the_post_thumbnail('single-post-thumbnail'); ?>
-        <h2><?php  // the_title(); ?></h2>
-        <p><?php // the_content(); ?></p>
+        <span class="single-category"><?php the_category(); ?></span>
+        <h2><?php  the_title(); ?></h2>
+        <?php the_post_thumbnail(); ?>
+
+        <div class="down-thumb my-4">
+            <div class="single-author">
+                <span>by : </span>
+                <?php the_author(); ?> 
+            </div>
+
+        </div>
+
+        <p><?php the_content(); ?></p>
     
+
+
+
         <?php
-         //endwhile;
+            endwhile;
         ?>
         
     
