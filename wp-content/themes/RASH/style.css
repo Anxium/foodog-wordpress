@@ -41,7 +41,7 @@ a:hover {
     height: 250px;
 }
 
-/* Divers */
+/* CSS INDEX */
 .hero-title {
     text-align: left;
     line-height: 0.8;
@@ -52,6 +52,23 @@ a:hover {
     text-transform: uppercase;
     font-weight: 900;
     color: #4B5055;
+}
+
+.blog-main {
+    overflow: hidden;
+}
+
+.index-posts-title {
+    position: relative;
+}
+
+.index-posts-title:after{
+    content: '';
+    position: absolute;
+    border-bottom: 4px solid lightgrey;
+    width: 100%;
+    top: 50%;
+    margin-left: 10px;
 }
 
 .blog-post {
@@ -85,158 +102,218 @@ a:hover {
     color: #666666;
 }
 
-.head-content{
-    margin-top:2%;
-}
-
-.title{
-    display:flex;
-    justify-content: center;
-}
-
-.blog-title{
+/* CSS HEADER */
+.header-title a {
     color:#333;
     font-family: 'Crimson Text', serif;
     font-weight: bold;
     font-size:70px;
-    margin-left:10%;
-    margin-bottom:1.5%;
 }
 
-#navigation-principale li {
-    position: relative;
-    display: inline-block;
-    padding: 25px;
-    font-weight: 500;
-    text-align:center;
-    font-family: 'Open Sans', sans-serif;
+nav ul {
+    display: flex;
 }
-    
-#navigation-principale li a {
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
     color: #333;
-    text-transform:uppercase;
-    font-size:15px;
+    padding-bottom: 2px;
+    border-bottom: 0px solid #FF8d6a;
+}
+
+nav ul li a:hover {
+    color: #333;
+    border-bottom: 2px solid #FF8d6a;
+    transition: all 0.3s;
+}
+
+.header-social-nav-div {
+    justify-content: flex-end;
+}
+
+.header-social-nav {
+    margin-top: 10px;
+    margin-right: 60px;
+}
+
+.header-social-nav div ul li {
+    margin: 0 10px;
+    font-size: 10px;
+}
+
+.header-main-nav div ul li {
+    margin: 0 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 800px) {
+    .header-social-nav-div {
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .header-social-nav {
+        margin-top: 0;
+        margin-right: 0;
+    }
+
+    .header-main-nav div ul {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+    
+    .header-main-nav div ul li {
+        margin-bottom: 14px;
+    }
+
+    .footer-insta{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+}
+
+/* CSS CATEGORY */
+.category-title-div  {
+    width: 94vw;
+    background: #F7F7F7;
+}
+
+.category-title {
+    padding: 20px 0;
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.category-post-body {
+    display: flex;
     justify-content: center;
-    text-decoration:none;
+    flex-flow: column;
 }
 
-.menu{
-    display:flex;
-    justify-content:center;
+.category-post-cat ul {
+    list-style: none;
 }
 
-.nav-social{
-    margin-top:1%;
+.category-post-cat ul li {
+    display: inline;
+    margin-left: 1px;
 }
 
-.nav-social li{
-    text-decoration:none;
-    list-style-type:none;
-    margin:10px;
-    font-size:11px;
+.category-post-cat ul li a {
+    color: #FF8d6a;
+    font-size: 14px;
+    font-weight: 800;
 }
 
-.nav-social li a{
-    color:#000;
-    text-decoration:none;
+.category-post-cat ul li a:after {
+    content: ' | ';
+    color: #9c9c9c;
 }
 
-.nav-social li a:hover{
-    text-decoration:none;
+.category-post-title a {
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #4B5055;
 }
 
-.header-link{
-    width:100%;
+.category-post-resume {
+    font-family: 'Crimson Text', serif;
+    color: #666;
 }
 
-
-/* HADRI CSS*/
-
-.footer1 {
-    padding-top: 24px;
-    background-color: #3a3e43;
-    color: white;
-}
-.footer1 h2{
-    margin: 5px;
-    padding: 8px;
-    font-size: 25px;
-    font-family: "Times New Roman", Times, serif;
-       
-}
-   .footer1 a{
-    color: white;
-}
-   .footer1 a:hover{
-    color: white;
+.category-post-share span {
+    margin-left: 4px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #9c9c9c;
 }
 
-.footer1 p{
-    margin: 5px;
-    padding-top: 2px;
-    padding-left: 10px;
-    font-size: 18px;
-    font-family: "Times New Roman", Times, serif;     
+/* CSS SHARE LINK */
+.link-share {
+ color: #333;
 }
 
-.footer1 h2{
-    margin: 5px;
+.link-share:hover {
+    color: #333;
+}
+
+.share {
     padding: 5px;
-    border-bottom: 1px solid white;    
+    border: 1px solid #333;
+    border-radius: 50%;
 }
 
-   /*==========================footer2===========================*/
-.footer2{ 
-    background-color: #303336;
-    color: white;  
+/* CSS FOOTER */
+.footer {
+    background-color: #3a3e43;
 }
 
-.footer2 p{
-    font-size: 16px;
-    font-family: "Times New Roman", Times, serif;
-}
-
-.gallery-image img{
-    width:85px; 
-    height:85px;
-}
-
-.gallery-bottom{
-    margin-bottom:10px;
-}
-
-.block{
-    font-size: 16px;
-    margin:5px;
- }
-
-.footer-link{
-    margin-top:20px;
-    margin-bottom:20px;
-}
-
-.footer1 li{
-    padding-bottom: 10px;
+.footer li{
+    padding-bottom: 25px;
     margin-bottom: 40px;
     list-style: none;
-    color: white;
     border-bottom: 0.5px solid #303336;
 }
 
-h3.title2{
-    margin:1px;
+.footer-cat-menu a{
+    font-size: 13px;
+    color:white;
 }
-.footer_div{
+
+.footer-subtitle{
+    font-size: 15px;
+    margin-left: 18px;
+    margin-top: 60px;
+    padding-bottom: 5px;
+    color: #6f7277;
+}
+
+.footer-bottom{ 
+    height: 100px;
+    background-color: #303336;
+}
+
+.footer-bottom a{ 
+    color: white;
+}
+
+.link-social{
+    display:flex;
+    justify-content: flex-end;
+    margin-right: 40vh;
+}
+
+.link-social a{
+    padding-top:25px;
+    padding-right:10px;
+    padding-left:10px;
+    font-size: 15px;
+    color: #fff;
+}
+
+.division-bottom{
+    margin-bottom: 30px;
+}
+
+/* popular post dans le footer */
+
+.footer-div{
     display: flex;
 }
-.category_footer{
-    color: #6f7277!important;
+.category-footer{
     margin-left: 30px;
     margin-bottom: 60px;
     font-size: 24px;
 }
 
-}
 .footer-copy{
     padding-top:24px;
     height: 75px;
@@ -245,47 +322,23 @@ h3.title2{
 .link-social{
     display:flex;
     justify-content: flex-end;
-    margin-right: 30px;
+    margin-right: 30vh;
 }
 
-.link-social a{
-    padding-right:10px;
-    padding-left:10px;
-    font-size: 25px;
-    color: #fff;
+.hadri-img img{
+    object-fit: cover;
+    height: 95px;
+    width: 146px;
+    margin: 0 20px 20px;
 }
 
-/* CSS RUBEN */
-.sidebar-fb {
-    background-color: #97A9D4;
-    height:50px;
-    margin-bottom: 2px;
+.block {
+    color:white;
 }
 
-.sidebar-txt-side {
-    color:#fff;
-    font-size:0.9em;
-    font-weight:bold;
-    margin-top:18px;
-}
-
-.sidebar-twitter{
-    background-color:#60D2F5;
-    height:50px;
-    margin-bottom: 2px;
-}
-
-.sidebar-insta {
-    background-color: #709CBF;
-    height:50px;
-    margin-bottom: 2px;
-}
-
-.sidebar-dog {
-    background: #000;
-}
-
-.img-sidebar{
-    padding: 0;
-    margin-top:60px;
+.footer-title2{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    line-height: 15px;
 }
